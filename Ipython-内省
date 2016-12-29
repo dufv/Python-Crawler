@@ -1,0 +1,49 @@
+内省
+- ？
+type(data)
+Out[142]: dict    
+===》
+data?
+Type:        dict
+String form: {0: 0.5659000114913119, 1: -0.8924270194241621, 2: 0.8722368317980692, 3: -0.41718246246255014, 4: -0.37889159824807933, 5: 0.5251207752826885, 6: -0.7568876774824937}
+Length:      7
+Docstring:
+dict() -> new empty dictionary
+dict(mapping) -> new dictionary initialized from a mapping object's
+    (key, value) pairs
+dict(iterable) -> new dictionary initialized as if via:
+    d = {}
+    for k, v in iterable:
+        d[k] = v
+dict(**kwargs) -> new dictionary initialized with the name=value pairs
+    in the keyword argument list.  For example:  dict(one=1, two=2)
+    
+    
+===》
+get_counts?
+Signature: get_counts(time_zones)
+Docstring: <no docstring>
+File:      c:\users\duf\appdata\local\enthought\canopy\<ipython-input-66-1f5ddf9417a9>
+Type:      function
+- ？？
+可以输出源码。    
+===》
+get_counts??
+Signature: get_counts(time_zones)
+Source:
+def get_counts(time_zones):
+    t_counts=defaultdict(int)
+    for t in time_zones:
+        if len(t)!=0:
+            t_counts[t] += 1
+    return t_counts
+
+File:      c:\users\duf\appdata\local\enthought\canopy\<ipython-input-66-1f5ddf9417a9>
+Type:      function
+- ×
+===》
+np.*load*?
+np.load
+np.loads
+np.loadtxt
+np.pkgload
