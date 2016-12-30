@@ -1,0 +1,5 @@
+array-多维数组生成；矢量运算。
+  shape；dtype；生成（numpy.zeros((2,3),int);numpy.empty;numpy.ones;numpy.identity生成N*N的对角线为一的单位矩阵）
+  numpy.arange-》类似Python的range，生成的是数组。
+  arr.T  ->矩阵转置
+  通用函数
